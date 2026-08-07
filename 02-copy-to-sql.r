@@ -878,7 +878,7 @@ map(2016:2025, function(y) {
 
 message("Creating indexes and foreign keys...")
 
-# ## exports ----
+## exports ----
 
 try(dbExecute(con, "CREATE INDEX idx_exports_year ON exports (year);"), silent = TRUE)
 try(dbExecute(con, "CREATE INDEX idx_exports_reporter ON exports (reporter_code);"), silent = TRUE)
@@ -887,39 +887,57 @@ try(dbExecute(con, "CREATE INDEX idx_exports_commodity ON exports (commodity_cod
 
 try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_classification_codes
   FOREIGN KEY (classification_id) REFERENCES classification_codes (classification_id);"), silent = TRUE)
+
 try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_country_codes
   FOREIGN KEY (reporter_code) REFERENCES country_codes (country_code);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_country_codes_2
+  FOREIGN KEY (partner_code) REFERENCES country_codes (country_code);"), silent = TRUE)
+
 try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_commodity_codes
   FOREIGN KEY (classification_id, commodity_code) REFERENCES commodity_codes (classification_id, commodity_code);"), silent = TRUE)
+
 try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_units
   FOREIGN KEY (qty_unit_code) REFERENCES unit_codes (qty_unit_code);"), silent = TRUE)
+
 try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_mot_codes
   FOREIGN KEY (mot_code) REFERENCES mot_codes (mot_code);"), silent = TRUE)
+
 try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_customs_codes
   FOREIGN KEY (customs_code) REFERENCES customs_codes (customs_code);"), silent = TRUE)
+
 try(dbExecute(con, "ALTER TABLE exports ADD CONSTRAINT fk_exports_mos_codes
   FOREIGN KEY (mos_code) REFERENCES mos_codes (mos_code);"), silent = TRUE)
 
-# ## imports ----
+## imports ----
 
-# try(dbExecute(con, "CREATE INDEX idx_imports_year ON imports (year);"), silent = TRUE)
-# try(dbExecute(con, "CREATE INDEX idx_imports_reporter ON imports (reporter_code);"), silent = TRUE)
-# try(dbExecute(con, "CREATE INDEX idx_imports_partner ON imports (partner_code);"), silent = TRUE)
-# try(dbExecute(con, "CREATE INDEX idx_imports_commodity ON imports (commodity_code);"), silent = TRUE)
+try(dbExecute(con, "CREATE INDEX idx_imports_year ON imports (year);"), silent = TRUE)
+try(dbExecute(con, "CREATE INDEX idx_imports_reporter ON imports (reporter_code);"), silent = TRUE)
+try(dbExecute(con, "CREATE INDEX idx_imports_partner ON imports (partner_code);"), silent = TRUE)
+try(dbExecute(con, "CREATE INDEX idx_imports_commodity ON imports (commodity_code);"), silent = TRUE)
 
-# try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_classification_codes
-#   FOREIGN KEY (classification_id) REFERENCES classification_codes (classification_id);"), silent = TRUE)
-# try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_country_codes
-#   FOREIGN KEY (reporter_code) REFERENCES country_codes (country_code);"), silent = TRUE)
-# try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_commodity_codes
-#   FOREIGN KEY (classification_id, commodity_code) REFERENCES commodity_codes (classification_id, commodity_code);"), silent = TRUE)
-# try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_units
-#   FOREIGN KEY (qty_unit_code) REFERENCES unit_codes (qty_unit_code);"), silent = TRUE)
-# try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_mot_codes
-#   FOREIGN KEY (mot_code) REFERENCES mot_codes (mot_code);"), silent = TRUE)
-# try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_customs_codes
-#   FOREIGN KEY (customs_code) REFERENCES customs_codes (customs_code);"), silent = TRUE)
-# try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_mos_codes
-#   FOREIGN KEY (mos_code) REFERENCES mos_codes (mos_code);"), silent = TRUE)
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_classification_codes
+  FOREIGN KEY (classification_id) REFERENCES classification_codes (classification_id);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_country_codes
+  FOREIGN KEY (reporter_code) REFERENCES country_codes (country_code);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_country_codes_2
+  FOREIGN KEY (partner_code) REFERENCES country_codes (country_code);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_commodity_codes
+  FOREIGN KEY (classification_id, commodity_code) REFERENCES commodity_codes (classification_id, commodity_code);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_units
+  FOREIGN KEY (qty_unit_code) REFERENCES unit_codes (qty_unit_code);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_mot_codes
+  FOREIGN KEY (mot_code) REFERENCES mot_codes (mot_code);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_customs_codes
+  FOREIGN KEY (customs_code) REFERENCES customs_codes (customs_code);"), silent = TRUE)
+
+try(dbExecute(con, "ALTER TABLE imports ADD CONSTRAINT fk_imports_mos_codes
+  FOREIGN KEY (mos_code) REFERENCES mos_codes (mos_code);"), silent = TRUE)
 
 dbDisconnect(con)
