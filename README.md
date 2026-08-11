@@ -17,7 +17,7 @@ validation and cleaning steps are time consuming.
 
 Clean Comtrade database diagram:
 
-<img src="uncomtrade-clean.png" alt="Clean Comtrade database diagram"/>
+<img src="comtrade.svg" alt="Clean Comtrade database diagram"/>
 
 How to run:
 

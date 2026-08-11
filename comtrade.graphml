@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 3.1.0.2-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:yca="http://www.yworks.com/xml/yfiles-compat-arrows/1.0" xmlns:ycns="http://www.yworks.com/xml/yfiles-compat-node-styles/1.0" xmlns:yjs2="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:template-styles="http://www.yworks.com/demos/template-node-style/3.0" xmlns:demostyle2="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/2.0" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:icon-style="http://www.yworks.com/yed-live/icon-style/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:Vue3jsNodeStyle="http://www.yworks.com/demos/yfiles-vue-node-style/3.0" xmlns:explorer-style="http://www.yworks.com/data-explorer/1.0" xmlns:yx="http://www.yworks.com/xml/yfiles-common/4.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:x0="http://www.yworks.com/yFilesHTML/demos/EntityRelationship/1.0" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/3.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="int" attr.name="zOrder" y:attr.uri="http://www.yworks.com/xml/yfiles-z-order/1.0/zOrder"/>
+	<key id="d1" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d2" for="node" attr.type="string" attr.name="url"/>
+	<key id="d3" for="node" attr.type="string" attr.name="description"/>
+	<key id="d4" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d5" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d6" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d7" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d8" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d10" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d11" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d12" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d13" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d14" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d15" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d16" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d18" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d19" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d19">
+		<y:SharedData>
+			<yjs:Color x:Key="1" value="#FFC4C4C4"/>
+			<x:List x:Key="2">
+				<sys:Int32>6</sys:Int32>
+				<sys:Int32>2</sys:Int32>
+			</x:List>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d6">
+			<y:Json>{"version":"2.0.0","origin":"yed-live","theme":{"name":"light","version":"1.0.0"},"layout":"layout-organic","config":{"p_scope":0,"p_preferredEdgeLength":40,"p_allowOverlappingNodes":false,"p_compactness":0.5,"p_qualityTimeRatio":0.6,"p_maximumDuration":30000,"p_deterministic":false,"p_cycleSubstructure":0,"p_chainSubstructure":0,"p_starSubstructure":0,"p_parallelSubstructure":0,"p_considerNodeLabels":false,"p_edgeLabeling":false}}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d0">0</data>
+			<data key="d5">
+				<y:RectD X="495.1" Y="700" Width="180.8" Height="74"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="classification_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>classification_code</sys:String>
+									<sys:String><![CDATA[classification_id						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="490.36,816.5,180.8,74"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.49999999999999983,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.49999999999999983,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.49999999999999983,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.49999999999999983,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n1">
+			<data key="d0">1</data>
+			<data key="d5">
+				<y:RectD X="26.819999999999993" Y="733" Width="179.36" Height="174"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="commodity_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>classification_code</sys:String>
+									<sys:String>classification_id</sys:String>
+									<sys:String>commodity_code</sys:String>
+									<sys:String>description</sys:String>
+									<sys:String>parent_code</sys:String>
+									<sys:String>level</sys:String>
+									<sys:String><![CDATA[is_basic_level						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="216.07999999999993,0,179.36,174"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n2">
+			<data key="d0">2</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="0" Width="195.68" Height="294"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="commodity_correlations">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>h0</sys:String>
+									<sys:String>h1</sys:String>
+									<sys:String>h2</sys:String>
+									<sys:String>h3</sys:String>
+									<sys:String>h4</sys:String>
+									<sys:String>h5</sys:String>
+									<sys:String>h6</sys:String>
+									<sys:String>s1</sys:String>
+									<sys:String>s2</sys:String>
+									<sys:String>s3</sys:String>
+									<sys:String>s4</sys:String>
+									<sys:String>b4</sys:String>
+									<sys:String><![CDATA[b5						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="942.52,0,195.68,294"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n3">
+			<data key="d0">3</data>
+			<data key="d5">
+				<y:RectD X="358" Y="704" Width="126" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="country_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>country_code</sys:String>
+									<sys:String>country_iso3</sys:String>
+									<sys:String><![CDATA[country_name						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="555.4399999999999,40,126,94"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5397061251465435,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.4603174603174603,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.46029387485345696,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5396825396825397,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.44249434492298084"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.4603174603174603,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5575056550770191"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5396825396825397,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.4503637370304996,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.4603174603174603,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5496362629695,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5396825396825397,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.4514782550521,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.4603174603174603,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p7">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5485217449478995,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5396825396825397,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n4">
+			<data key="d0">4</data>
+			<data key="d5">
+				<y:RectD X="812.8199999999999" Y="560" Width="188.36" Height="74"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="customs_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>customs_code</sys:String>
+									<sys:String><![CDATA[customs_description						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="0,816.5,188.36,74"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000003,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000003,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n5">
+			<data key="d0">5</data>
+			<data key="d5">
+				<y:RectD X="1289" Y="0" Width="135" Height="114"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="dataset_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>year</sys:String>
+									<sys:String>reporter_code</sys:String>
+									<sys:String>classification_id</sys:String>
+									<sys:String><![CDATA[dataset_code						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1183.2,0,135,114"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n6">
+			<data key="d0">6</data>
+			<data key="d5">
+				<y:RectD X="320.78" Y="0" Width="232.44" Height="574"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="exports">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>year</sys:String>
+									<sys:String>reporter_code</sys:String>
+									<sys:String>partner_code</sys:String>
+									<sys:String>partner2code</sys:String>
+									<sys:String>classification_search_code</sys:String>
+									<sys:String>classification_id</sys:String>
+									<sys:String>is_original_classification</sys:String>
+									<sys:String>commodity_code</sys:String>
+									<sys:String>customs_code</sys:String>
+									<sys:String>mos_code</sys:String>
+									<sys:String>mot_code</sys:String>
+									<sys:String>qty_unit_code</sys:String>
+									<sys:String>qty</sys:String>
+									<sys:String>is_qty_estimated</sys:String>
+									<sys:String>alt_qty_unit_code</sys:String>
+									<sys:String>alt_qty</sys:String>
+									<sys:String>is_alt_qty_estimated</sys:String>
+									<sys:String>net_wgt</sys:String>
+									<sys:String>is_net_wgt_estimated</sys:String>
+									<sys:String>gross_wgt</sys:String>
+									<sys:String>is_gross_wgt_estimated</sys:String>
+									<sys:String>fobvalue</sys:String>
+									<sys:String>primary_value</sys:String>
+									<sys:String>legacy_estimation_flag</sys:String>
+									<sys:String>is_reported</sys:String>
+									<sys:String>is_aggregate</sys:String>
+									<sys:String><![CDATA[added_zero						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="95.6400000000001,213.5,232.44,574"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5215237126504237,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.47848907244880423,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.4784762873495765,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.521510927551196,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p7">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view" LocationParameter="{x:Static y:FreeNodePortLocationModel.NodeCenterAnchored}"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n7">
+			<data key="d0">7</data>
+			<data key="d5">
+				<y:RectD X="0" Y="510" Width="141" Height="194"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="exports_h3">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>year</sys:String>
+									<sys:String>reporter_code</sys:String>
+									<sys:String>partner_code</sys:String>
+									<sys:String>classification_id</sys:String>
+									<sys:String>commodity_code</sys:String>
+									<sys:String>qty_unit_code</sys:String>
+									<sys:String>fobvalue</sys:String>
+									<sys:String><![CDATA[qty						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="756.52,203,141,194"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.472136435168867"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5,0.526947917882347"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.527863564831133"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5,0.47305208211765337"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n8">
+			<data key="d0">8</data>
+			<data key="d5">
+				<y:RectD X="1289" Y="160" Width="137" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="flow_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>flow_code</sys:String>
+									<sys:String>flow_description</sys:String>
+									<sys:String><![CDATA[flow_category						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="0,935.5,137,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n9">
+			<data key="d0">9</data>
+			<data key="d5">
+				<y:RectD X="1324" Y="480" Width="91" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h0_h1_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="873,935.5,91,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n10">
+			<data key="d0">10</data>
+			<data key="d5">
+				<y:RectD X="1318" Y="900" Width="88" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h0_h1_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="811,1074.5,88,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n11">
+			<data key="d0">11</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="620" Width="91" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h1_h2_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1009,935.5,91,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n12">
+			<data key="d0">12</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="1040" Width="88" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h1_h2_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="944,1074.5,88,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n13">
+			<data key="d0">13</data>
+			<data key="d5">
+				<y:RectD X="1327" Y="340" Width="93" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h2_h3_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="460,935.5,93,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n14">
+			<data key="d0">14</data>
+			<data key="d5">
+				<y:RectD X="1184" Y="760" Width="90" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h2_h3_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="272,1074.5,90,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n15">
+			<data key="d0">15</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="340" Width="94" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h3_h4_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="182,935.5,94,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n16">
+			<data key="d0">16</data>
+			<data key="d5">
+				<y:RectD X="1184" Y="620" Width="91" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h3_h4_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1145,935.5,91,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n17">
+			<data key="d0">17</data>
+			<data key="d5">
+				<y:RectD X="1187" Y="340" Width="94" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h4_h5_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="321,935.5,94,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n18">
+			<data key="d0">18</data>
+			<data key="d5">
+				<y:RectD X="1321" Y="620" Width="91" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h4_h5_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="0,1074.5,91,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n19">
+			<data key="d0">19</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="480" Width="93" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h5_h6_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="598,935.5,93,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n20">
+			<data key="d0">20</data>
+			<data key="d5">
+				<y:RectD X="1320" Y="760" Width="90" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="h5_h6_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="407,1074.5,90,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n21">
+			<data key="d0">21</data>
+			<data key="d5">
+				<y:RectD X="575.28" Y="824" Width="232.44" Height="574"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="imports">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>year</sys:String>
+									<sys:String>reporter_code</sys:String>
+									<sys:String>partner_code</sys:String>
+									<sys:String>partner2code</sys:String>
+									<sys:String>classification_search_code</sys:String>
+									<sys:String>classification_id</sys:String>
+									<sys:String>is_original_classification</sys:String>
+									<sys:String>commodity_code</sys:String>
+									<sys:String>customs_code</sys:String>
+									<sys:String>mos_code</sys:String>
+									<sys:String>mot_code</sys:String>
+									<sys:String>qty_unit_code</sys:String>
+									<sys:String>qty</sys:String>
+									<sys:String>is_qty_estimated</sys:String>
+									<sys:String>alt_qty_unit_code</sys:String>
+									<sys:String>alt_qty</sys:String>
+									<sys:String>is_alt_qty_estimated</sys:String>
+									<sys:String>net_wgt</sys:String>
+									<sys:String>is_net_wgt_estimated</sys:String>
+									<sys:String>gross_wgt</sys:String>
+									<sys:String>is_gross_wgt_estimated</sys:String>
+									<sys:String>cifvalue</sys:String>
+									<sys:String>primary_value</sys:String>
+									<sys:String>legacy_estimation_flag</sys:String>
+									<sys:String>is_reported</sys:String>
+									<sys:String>is_aggregate</sys:String>
+									<sys:String><![CDATA[added_zero						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="343.08000000000015,213.5,232.44,574"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5145008333277289"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.4784890724488041,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.48549916667227117"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5215109275511961,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p4">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p5">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p6">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p7">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5000000000000001,0.5"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n22">
+			<data key="d0">22</data>
+			<data key="d5">
+				<y:RectD X="138" Y="956" Width="141" Height="194"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="imports_h3">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>year</sys:String>
+									<sys:String>reporter_code</sys:String>
+									<sys:String>partner_code</sys:String>
+									<sys:String>classification_id</sys:String>
+									<sys:String>commodity_code</sys:String>
+									<sys:String>qty_unit_code</sys:String>
+									<sys:String>cifvalue</sys:String>
+									<sys:String><![CDATA[qty						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="595.52,203,141,194"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.4552128698906627"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5291888810249868"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d16">
+					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.5447871301093373"/>
+				</data>
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view">
+							<y:Port.LocationParameter>
+								<y:FreeNodePortLocationModelParameter Ratio="0.5,0.4708111189750132"/>
+							</y:Port.LocationParameter>
+						</y:Port>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n23">
+			<data key="d0">23</data>
+			<data key="d5">
+				<y:RectD X="546" Y="615" Width="137" Height="74"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="mos_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>mos_code</sys:String>
+									<sys:String><![CDATA[mos_description						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="208.36,816.5,137,74"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n24">
+			<data key="d0">24</data>
+			<data key="d5">
+				<y:RectD X="694" Y="611" Width="105" Height="74"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="mot_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>mot_code</sys:String>
+									<sys:String><![CDATA[mot_name						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="365.36,816.5,105,74"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<node id="n25">
+			<data key="d0">25</data>
+			<data key="d5">
+				<y:RectD X="1181" Y="1040" Width="88" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s1_s2_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1077,1074.5,88,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n26">
+			<data key="d0">26</data>
+			<data key="d5">
+				<y:RectD X="1180" Y="1180" Width="85" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s1_s2_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="132,1213.5,85,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n27">
+			<data key="d0">27</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="900" Width="90" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s2_s3_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="542,1074.5,90,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n28">
+			<data key="d0">28</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="1180" Width="87" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s2_s3_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="0,1213.5,87,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n29">
+			<data key="d0">29</data>
+			<data key="d5">
+				<y:RectD X="1186" Y="480" Width="92" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s3_h0_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="736,935.5,92,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n30">
+			<data key="d0">30</data>
+			<data key="d5">
+				<y:RectD X="1183" Y="900" Width="89" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s3_h0_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="677,1074.5,89,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n31">
+			<data key="d0">31</data>
+			<data key="d5">
+				<y:RectD X="1047" Y="760" Width="91" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s3_s4_bwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="136,1074.5,91,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n32">
+			<data key="d0">32</data>
+			<data key="d5">
+				<y:RectD X="1315" Y="1040" Width="88" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="s3_s4_fwd">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>from</sys:String>
+									<sys:String>to</sys:String>
+									<sys:String><![CDATA[weight						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="1210,1074.5,88,94"/>
+				</y:ViewState>
+			</data>
+		</node>
+		<node id="n33">
+			<data key="d0">33</data>
+			<data key="d5">
+				<y:RectD X="217" Y="740" Width="130" Height="94"/>
+			</data>
+			<data key="d7">
+				<x0:EntityNodeStyle fill="WHITE" insetFill="LIGHT_GRAY">
+					<x0:EntityNodeStyle.stroke>
+						<yjs:Stroke fill="{y:GraphMLReference 1}" miterLimit="1.45"/>
+					</x0:EntityNodeStyle.stroke>
+					<x0:EntityNodeStyle.model>
+						<x0:EntityRelationshipModel title="unit_codes">
+							<x0:EntityRelationshipModel.attributes>
+								<x:Array>
+									<sys:String>qty_unit_code</sys:String>
+									<sys:String>qty_abbr</sys:String>
+									<sys:String><![CDATA[qty_description						]]></sys:String>
+								</x:Array>
+							</x0:EntityRelationshipModel.attributes>
+						</x0:EntityRelationshipModel>
+					</x0:EntityNodeStyle.model>
+				</x0:EntityNodeStyle>
+			</data>
+			<data key="d8">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="410.43999999999994,40,130,94"/>
+				</y:ViewState>
+			</data>
+			<port name="p0">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p1">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p2">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+			<port name="p3">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
+		</node>
+		<edge id="e0" source="n6" target="n0" sourceport="p0" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e1" source="n6" target="n1" sourceport="p1" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e2" source="n6" target="n3" sourceport="p2" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e3" source="n6" target="n3" sourceport="p3" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e4" source="n6" target="n4" sourceport="p4" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e5" source="n6" target="n23" sourceport="p5" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e6" source="n6" target="n24" sourceport="p6" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e7" source="n6" target="n33" sourceport="p7" targetport="p0">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e8" source="n7" target="n1" sourceport="p0" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e9" source="n7" target="n3" sourceport="p1" targetport="p2">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e10" source="n7" target="n3" sourceport="p2" targetport="p3">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e11" source="n7" target="n33" sourceport="p3" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e12" source="n21" target="n0" sourceport="p0" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e13" source="n21" target="n1" sourceport="p1" targetport="p2">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e14" source="n21" target="n3" sourceport="p2" targetport="p4">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e15" source="n21" target="n3" sourceport="p3" targetport="p5">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e16" source="n21" target="n4" sourceport="p4" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e17" source="n21" target="n23" sourceport="p5" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e18" source="n21" target="n24" sourceport="p6" targetport="p1">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e19" source="n21" target="n33" sourceport="p7" targetport="p2">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e20" source="n22" target="n1" sourceport="p0" targetport="p3">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e21" source="n22" target="n3" sourceport="p1" targetport="p6">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e22" source="n22" target="n3" sourceport="p2" targetport="p7">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+		<edge id="e23" source="n22" target="n33" sourceport="p3" targetport="p3">
+			<data key="d13">
+				<yjs:PolylineEdgeStyle>
+					<yjs:PolylineEdgeStyle.stroke>
+						<yjs:Stroke miterLimit="1.45">
+							<yjs:Stroke.dashStyle>
+								<yjs:DashStyle dashes="{y:GraphMLReference 2}" offset="0"/>
+							</yjs:Stroke.dashStyle>
+						</yjs:Stroke>
+					</yjs:PolylineEdgeStyle.stroke>
+					<yjs:PolylineEdgeStyle.targetArrow>
+						<yjs:Arrow stroke="BLACK" fill="BLACK" type="ELLIPSE"/>
+					</yjs:PolylineEdgeStyle.targetArrow>
+					<yjs:PolylineEdgeStyle.sourceArrow>
+						<yjs:Arrow stroke="BLACK" fill="TRANSPARENT" type="DIAMOND"/>
+					</yjs:PolylineEdgeStyle.sourceArrow>
+				</yjs:PolylineEdgeStyle>
+			</data>
+		</edge>
+	</graph>
+</graphml>
