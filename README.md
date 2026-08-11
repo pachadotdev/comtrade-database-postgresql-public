@@ -1,4 +1,4 @@
-# UN COMTRADE Datasets in Arrow Parquet
+# UN COMTRADE Datasets in PostgreSQL
 
 [![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-donate-white.svg)](https://www.buymeacoffee.com/pacha)
 
@@ -19,7 +19,19 @@ Clean Comtrade database diagram:
 
 <img src="comtrade.svg" alt="Clean Comtrade database diagram"/>
 
-How to run:
+## Use this data
+
+Download all of the ZIP parts from the [releases page](https://github.com/pachadotdev/comtrade-database-postgresql-public/releases/tag/sql-dump). Unzip *comtrade.zip*, then restore the database with
+
+```bash
+psql -h localhost -p 5432 -U REPLACE_USER -v ON_ERROR_STOP=1 -c \
+    \"DROP DATABASE IF EXISTS comtrade; CREATE DATABASE comtrade OWNER REPLACE_USER;\";
+
+pg_restore -h localhost -p REPLACE_PORT -U REPLACE_USER -d comtrade \
+    --no-owner --no-acl -v comtrade.dump
+```
+
+## Re-create the full database
 
 1. Run `Rscript 01-download-data.r` (slow)
 2. Run `Rscript 02-copy-to-sql.r`
@@ -27,3 +39,14 @@ How to run:
 
 Step 1 requires a UN COMTRADE token, which are usually ony available for paid accounts. Check with your university's library
 for access.
+
+## Note to myself
+
+Update the SQL dump with
+
+```bash
+pg_dump -Fc -d comtrade \
+  --exclude-table=imports \
+  --exclude-table=exports \
+  -f comtrade.dump
+```
