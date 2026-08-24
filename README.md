@@ -24,10 +24,11 @@ Clean Comtrade database diagram:
 Download all of the ZIP parts from the [releases page](https://github.com/pachadotdev/comtrade-database-postgresql-public/releases/tag/sql-dump). Unzip *comtrade.zip*, then restore the database with
 
 ```bash
-psql -h localhost -p 5432 -U REPLACE_USER -v ON_ERROR_STOP=1 -c \
-    \"DROP DATABASE IF EXISTS comtrade; CREATE DATABASE comtrade OWNER REPLACE_USER;\";
+psql -h localhost -p 5432 -U REPLACE_USER -v ON_ERROR_STOP=1 \
+    -c 'DROP DATABASE IF EXISTS comtrade;' \
+    -c 'CREATE DATABASE comtrade OWNER REPLACE_USER;'
 
-pg_restore -h localhost -p REPLACE_PORT -U REPLACE_USER -d comtrade \
+pg_restore -h localhost -p 5432 -U REPLACE_USER -d comtrade \
     --no-owner --no-acl -v comtrade.dump
 ```
 
