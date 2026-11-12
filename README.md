@@ -32,6 +32,10 @@ pg_restore -h localhost -p 5432 -U REPLACE_USER -d comtrade \
     --no-owner --no-acl -v comtrade.dump
 ```
 
+## Units
+
+The columns `fobvalue` and `cifvalue` are in USD million.
+
 ## Re-create the full database
 
 1. Run `Rscript 01-download-data.r` (slow)
